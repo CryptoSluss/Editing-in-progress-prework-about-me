@@ -1,0 +1,91 @@
+  
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Stylesheets with Relative Paths</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Libre+Caslon+Text|Roboto:300&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <header>
+    <h1><b>Jessica Maple</b></h1>
+  </header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+                  <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only"></span></a>
+                </li>
+          <li class="nav-item">
+                  <li class="nav-item active">
+                  <a class="nav-link" href="contact.html">Contact <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                      <li class="nav-item active">
+                      <a class="nav-link" href="https://github.com/jessmaple">Github <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                          <li class="nav-item active">
+                          <a class="nav-link" href="http://linkedin.com/jessmaple">Linkedin <span class="sr-only"></span></a>
+                        </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"></a>
+          </li>
+         </ul>
+      </div>
+    </nav>
+
+  <div class="container">
+
+    <section id="main-bio">
+
+   </div>
+
+  </div>
+</body>
+
+</html>
+            <div id="contactcontent">
+        
+                 <div id="contactmain">
+
+                    <form>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Name</label>
+                          <input type="Name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="What is your name?">
+                          <small id="emailHelp" class="form-text text-muted">I bet your name is cool :) </small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                          </div>
+
+                        <div class="form-group">
+                          <label for="exampleInputMessage1">Message</label>
+                          <input type="Message" class="form-control" id="exampleInputMessgage1" placeholder="Type your message">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+                    
+                </div>
+              </div>
+        </div>
+    </body>
+</html>
